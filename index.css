@@ -163,6 +163,7 @@ html, body {
 }
 
 .troubleshooting-text {
+    vertical-align: center;
     font-size: 16px;
     font-size: 3.75cqw;
     margin-top: 50px;
