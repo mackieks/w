@@ -1,2 +1,2 @@
-# wafel-test
-test of wafel site
+# wafel.xyz
+all-in-one wii u homebrew management website
