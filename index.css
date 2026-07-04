@@ -295,6 +295,28 @@ html, body {
     font-family: "Neue Haas Grotesk Display Pro 65 Medium";
     box-shadow: 0px 4px 10px rgba(153,104,0,1);
     box-shadow: 0px 0px 2.5cqw 0px rgba(153,104,0,1);
+    margin-left: -8px;
+    margin-left: -2cqw;
+}
+
+.guideButton {
+    border: none;
+    background-color: #E2A636;
+    color: white;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 15px;
+    border-radius: 3.5cqw; 
+    font-size: 24px;
+    font-size: 7cqw; 
+    padding: 10px 30px;
+    padding: 0.75cqw 3cqw 0.8cqw 3cqw;
+    font-family: Arial, sans-serif;
+    font-family: "Neue Haas Grotesk Display Pro 65 Medium";
+    box-shadow: 0px 4px 10px rgba(153,104,0,1);
+    box-shadow: 0px 0px 2.5cqw 0px rgba(153,104,0,1);
+    margin-left: 20px;
+    margin-left: 4cqw;
 }
 
 .troubleshootingButton {
@@ -315,6 +337,28 @@ html, body {
     box-shadow: 0px 0px 1.5cqw 0px rgba(153,104,0,1);
     margin-left: -10px;
     margin-left: -3cqw;
+    margin-right: 20px;
+    margin-right: 3.5cqw;
+}
+
+.demoButton {
+    border: none;
+    background-color: #E59700;
+    color: white;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 8px;
+    border-radius: 2cqw; 
+    font-size: 16px;
+    font-size: 3.75cqw;
+    padding: 10px 10px;
+    padding: 0.75cqw 3cqw 0.8cqw 3cqw;
+    font-family: Arial, sans-serif;
+    font-family: "Neue Haas Grotesk Text Pro"; 
+    box-shadow: 0px 2px 8px rgba(153,104,0,1);
+    box-shadow: 0px 0px 1.5cqw 0px rgba(153,104,0,1);
+/*    margin-left: 10px;
+    margin-left: 3cqw;*/
     margin-right: 20px;
     margin-right: 3.5cqw;
 }
