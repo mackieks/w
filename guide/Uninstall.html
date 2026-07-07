@@ -62,10 +62,18 @@ redNAND, do NOT proceed. If you proceed with these modifications in
 place, your console might BRICK. Only select
 <code>[ I have undone everything, continue ]</code> if you are
 absolutely certain it is safe.</li>
-<li>The installer will search for Stroopwafel files on your console’s
-internal memory (SLC) and your SD card. Depending on where they are
-found, you will be asked to remove them. For example, if they are found
-on the SD card:</li>
+<li>The installer will then automatically perform a <strong>System
+Integrity Check</strong> to ensure your console is safe to uninstall
+from.
+<ul>
+<li>If the check fails (e.g., due to missing or modified system files,
+multiple region folders detected, or USBMLC/redNAND being active), the
+uninstallation will be aborted to prevent a potential brick.</li>
+<li>If the check passes, the installer will search for Stroopwafel files
+on your console’s internal memory (SLC) and your SD card. Depending on
+where they are found, you will be asked to remove them. For example, if
+they are found on the SD card:</li>
+</ul></li>
 </ol>
 <pre class="text"><code>Stroopwafel files found on SD card.
 Do you want to remove them?
@@ -98,7 +106,7 @@ Do you want to continue uninstalling?
 
 [ Yes, continue uninstall ]
 [ No, cancel uninstall ]</code></pre>
-<ol start="7" type="1">
+<ol start="6" type="1">
 <li>Select <code>[ Yes, continue uninstall ]</code>.</li>
 </ol>
 <h3 id="sd-card-formatting">SD Card Formatting</h3>
@@ -151,6 +159,10 @@ console will reboot when the uninstall process finishes.</p>
     </div>
     <a href="https://wafel.xyz">wafel.xyz</a> &mdash;
     <a href="https://github.com/zer00p/wafel_installer">GitHub</a>
+    <br>
+    <span style="font-size: 0.8em; color: #888;">
+        Some icons provided by <a href="https://icons.getbootstrap.com/" target="_blank">Bootstrap Icons</a>.
+    </span>
 </div>
 
 </div>
